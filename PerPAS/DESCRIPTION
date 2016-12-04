@@ -1,0 +1,14 @@
+Package: PerPAS
+Type: Package
+Title: Personalized Pathway Alteration analysiS
+Version: 1.0
+Date: 2015-07-27
+Author: Chengyu Liu 
+Maintainer: Chengyu Liu <chengyu.liu.cs@gmail.com>
+Description: Quantify pathway alteration at an individual patient resolution.
+Imports: igraph, survival
+Depends: igraph, survival
+License: GPL-2
+LazyLoad: yes
+NeedsCompilation: no
+Packaged: 2015-08-03 11:24:09 UTC; czliu

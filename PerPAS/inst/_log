@@ -1,0 +1,9 @@
+
+# 2015-08-10
+
+updated functions of lcy.pathway.scoring and lcy.graph.allShortesstPath function because of issues raising when igraph updated to version 1.0.1
+
+the error message was 
+Error in parse_op_args(..., what = "a vertex", is_fun = is_igraph_vs,  :
+  Not a vertex sequence
+

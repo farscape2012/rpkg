@@ -1,0 +1,10 @@
+import(affy, caret, igraph, RColorBrewer, sqldf)
+#useDynLib(lcyRpkg, .registration=TRUE) dynamic
+
+export(
+lcy.graph.allShortestPath,
+lcy.pathway.geneContribution,
+lcy.tORz.score,
+lcy.pathway.scoring,
+lcy.survival.estimate,
+lcy.perpas)
