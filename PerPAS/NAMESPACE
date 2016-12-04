@@ -1,5 +1,4 @@
-import(affy, caret, igraph, RColorBrewer, sqldf)
-#useDynLib(lcyRpkg, .registration=TRUE) dynamic
+import(caret, igraph, RColorBrewer, sqldf)
 
 export(
 lcy.graph.allShortestPath,
