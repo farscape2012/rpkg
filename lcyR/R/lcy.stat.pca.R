@@ -52,4 +52,5 @@ lcy.stat.pca <- function(d, label=NULL, choices=1:2, output='pca.pdf'){
             system(cmd)
         }
     }
+    return(pca)
 }
