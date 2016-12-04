@@ -4,7 +4,7 @@
     Classical multidimensional scaling
 }
 \description{
-    Classical multidimensional scaling of a data matrix.  Also known as _principal coordinates analysis_ (Gower, 1966).
+    Classical multidimensional scaling of a data matrix.  Also known as principal coordinates analysis (Gower, 1966).
 }
 \usage{
 lcy.stat.mds(d, label, k = 2, dist.method="euclidean", eig = FALSE, output = "mds.pdf")
@@ -14,7 +14,7 @@ lcy.stat.mds(d, label, k = 2, dist.method="euclidean", eig = FALSE, output = "md
     a numeric data matrix where columns are observation and rows are features.
 }
   \item{label}{
-    a vector of labels maching with the column names of data.
+    a vector of labels corresponding to the column names of data.
 }
   \item{k}{
     the maximum dimension of the space which the data are to be represented in; must be in {1, 2, ..., n-1}.
@@ -39,4 +39,3 @@ lcy.stat.mds(d, label, k = 2, dist.method="euclidean", eig = FALSE, output = "md
     Chengyu Liu <chengyu.liu.cs@helsinki.fi>
 }
 \keyword{ mds }
-\keyword{ pca }

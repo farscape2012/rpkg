@@ -5,4 +5,8 @@ biocLite("RBGL")
 #biocLite("samr")
 # in order to install lcyR, these packages should be installed/updated. 
 
-install.packages(c('gdata','bitops','caTools','gplots','ROCR','kernlab','plyr','stringr','reshape2','caret','digest','rJava','FSelector','reshape','RColorBrewer',"Vennerable","sqldf","pamr","NMF","lme4"))
+
+install.packages(c('devtools', 'gdata','bitops','caTools','gplots','ROCR','kernlab','plyr','stringr','reshape2','caret','digest','rJava','FSelector','reshape','RColorBrewer',"Vennerable","sqldf","pamr","NMF","lme4"))
+
+library(devtools)
+install_github("ggbiplot", "vqv")
