@@ -1,0 +1,8 @@
+source("http://bioconductor.org/biocLite.R")
+# default set of packages
+# needed by Vennerable
+biocLite("RBGL")
+#biocLite("samr")
+# in order to install lcyR, these packages should be installed/updated. 
+
+install.packages(c('gdata','bitops','caTools','gplots','ROCR','kernlab','plyr','stringr','reshape2','caret','digest','rJava','FSelector','reshape','RColorBrewer',"Vennerable","sqldf","pamr","NMF","lme4"))

@@ -1,0 +1,13 @@
+Package: lcyR
+Type: Package
+Title: commonly used functions for my own convinience.
+Version: 0.1
+Date: 2016-11-28
+Author: Chengyu Liu
+Maintainer: Chengyu Liu <chengyu.liu.cs@gmail.com>
+Imports: gplots, ROCR, kernlab, caret, FSelector, pamr, Vennerable, RColorBrewer, sqldf, NMF
+Depends: gplots, NMF, ROCR, kernlab, caret, FSelector, pamr, Vennerable, RColorBrewer, sqldf
+Description: 
+License: 
+LazyLoad: yes
+Packaged: 2016-11-03 10:34:20 UTC
